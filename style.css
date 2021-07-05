@@ -119,3 +119,13 @@ footer{
     text-align: center;
     color: #fff;
 }
+
+
+@media (max-width: 480px){
+    h1{
+        font-size: 30px;
+    }
+    ul li a{
+        width:10em;
+        height: 10em;}
+}
