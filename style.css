@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #11011a;
+    font-family: 'Work Sans', sans-serif;
+    margin: 3em;
+}
+
+.neon-effect{
+    font-family: 'Pacifico', cursive;
+    color: fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+}
+h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 75px;
+}
+
+h2,p{
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ul, li{
+    list-style: none;
+}
+
+ul{
+    overflow: hidden;
+    padding: 3em;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    background: #a400e6;
+    display: block;
+    height: 14em;
+    width:12em;
+    padding: 1em;
+   transition: -webkit-transfrom .15s linear;
+}
+
+ul li{
+    margin: 1em;
+    float: left;
+}
+
+ul li h2{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    font-family:'Pacifico', cursive ;
+}
+
+
+ul li a{
+    transform: rotate(-6deg);
+}
+
+ul li:nth-child(even) a{
+    transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background: lightcoral;
+}
+
+
+
+ul li:nth-child(5n) a{
+    transform: rotate(-5deg);
+    position: relative;
+    top: -10px;
+    background: lightpink;
+}
+
+ul li:hover, ul li a:focus{
+    box-shadow: 10px 10px 7px rgba(0, 0,0, 0.7);
+    transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+}
+
+ol{
+    text-align: center;
+}
+
+ol li{
+    display: inline;
+    padding-right: 1em;
+}
+
+.polarid{
+    background: white;
+    padding: 1rem;
+}
+
+.polarid img{
+    width: 10em;
+    height: 10em;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+}
